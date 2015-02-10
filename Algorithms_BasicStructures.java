@@ -13,19 +13,20 @@ public class Algorithms_BasicStructures {
     public static void main(String[] args) {
         
         //Test the marStack class
-        marStack<Integer> testLL = new marStack<Integer>(); 
+        marQueue<Integer> testLL = new marQueue<Integer>(); 
         
-        testLL.push(0);
-        testLL.push(1);
-        testLL.push(2);
-        testLL.push(3);
+        testLL.enqueue(0);
+        testLL.enqueue(1);
+        testLL.enqueue(2);
+        testLL.enqueue(3);
         
         System.out.println(testLL.size());
         
-        System.out.println(testLL.pop());
-        System.out.println(testLL.pop());
-        System.out.println(testLL.pop());
-        System.out.println(testLL.pop());
-        System.out.println(testLL.pop());
+        System.out.println(testLL.dequeue());
+        System.out.println(testLL.dequeue());
+        System.out.println(testLL.dequeue());
+        System.out.println(testLL.dequeue());
+        System.out.println(testLL.dequeue());
+        System.out.println(testLL.isEmpty());
     } 
 }

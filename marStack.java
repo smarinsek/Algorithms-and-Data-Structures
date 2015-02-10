@@ -1,7 +1,7 @@
 package algorithms_basicstructures;
 
 /**
- * Implement a FIFO ADT Stack using a linked list
+ * Implement a LIFO ADT Stack using a linked list
  * 
  * @author Stephen
  * @version 1.0
